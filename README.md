@@ -1,2 +1,2 @@
 # fullstack-project
-Practicing Git through a fullstack project.
+This is a practice project for fullstack web development.
