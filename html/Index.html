@@ -5,19 +5,30 @@
 		<meta name="description" content="This is the home page of fullstack web development project">
 		<meta name="keyword" content="homepage, full stack, web development">
 		<meta name="author" content="Daniel Dobbs">
+		<style>
+			#third-para {
+			color: white; background-color: black; line-height: 25px; text-decoration: underline; text-align: center; text-transform: uppercase; letter-spacing: 2px;
+			}
+			.list {
+			color: red;
+			text-align: center;
+			}
+		</style>
 	</head>
 	<body>
 		<h1 class="first-class">The Heading</h1>
-		<p style="color: white; background-color: black; line-height: 25px; text-decoration: underline; text-align: center; text-transform: uppercase; letter-spacing: 2px;">This Is the First Paragraph</p>
-		<p id="second-para">This Is the Second Paragraph</p>
+		<p style="color: white; background-color: black; line-height: 25px; text-decoration: underline; text-align: center; text-transform: uppercase; letter-spacing: 2px;">This Is the first paragraph</p>
+		<p id="second-para">This Is the second paragraph</p>
+		<p id="third-para">This is the third paragraph</p>
+		<p class="fourth-para">This is the fourth paragraph</p>
 		<!-- This is a comment -->
-		<ol type="I" start="1">
+		<ol class="list" type="I" start="1">
 			<li>Tea</li>
 			<li>Sugar</li>
 			<li>Milk</li>
 		</ol>
-		<p>Cup</p>
-				<ul>
+		<p class="list">Cup</p>
+				<ul class="list">
 					<li> Glass 
 						<ol>
 							<li>Plain</li>
@@ -32,12 +43,12 @@
 					</li>
 				</ul>
 			</li>
-		<ul type="square">
+		<ul class="list" type="square">
 			<li>Pen</li>
 			<li>Paper</li>
 			<li>Clip</li>
 		</ul>
-		<ul type="circle">
+		<ul class="list" type="circle">
 			<li>Pen</li>
 			<li>Paper</li>
 			<li>Clip</li>

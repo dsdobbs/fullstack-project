@@ -5,9 +5,10 @@ h1 {
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	border: 2px dashed lightgreen;
-	width: 1200px;
+	width: 100%;
 	height: 200px;
-	
+	margin-top: 20px;
+	padding: 5px;
 }
 
 #second-para {
@@ -20,6 +21,17 @@ h1 {
 	letter-spacing: 2px;
 }
 
-.first-class {
+.first-header {
 	color: white;
+}
+
+.fourth-para {
+	color: white;
+	background-color: black;
+	float: top;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 25px;
+	letter-spacing: 2px;
 }
