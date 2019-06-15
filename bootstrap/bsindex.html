@@ -1,0 +1,139 @@
+<html>
+	<head>
+		<title>Bootstrap Project</title>
+		<link href="file:///C:/Users/ddobb/fullstack-project/bootstrap/bsstyle.css" rel="stylesheet">
+		<meta name="description" content="This is the home page of fullstack web development project">
+		<meta name="keyword" content="homepage, full stack, web development">
+		<meta name="author" content="Daniel Dobbs">
+		<style>
+			#third-para {
+			color: white; background-color: black; line-height: 25px; text-decoration: underline; text-align: center; text-transform: uppercase; letter-spacing: 2px;
+			}
+			.list {
+			color: red;
+			text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="first-class">The Heading</h1>
+		<p style="color: white; background-color: black; line-height: 25px; text-decoration: underline; text-align: center; text-transform: uppercase; letter-spacing: 2px;">This Is the first paragraph</p>
+		<p id="second-para">This Is the second paragraph</p>
+		<p id="third-para">This is the third paragraph</p>
+		<p class="fourth-para">This is the fourth paragraph</p>
+		<!-- This is a comment -->
+		<ol class="list" type="I" start="1">
+			<li>Tea</li>
+			<li>Sugar</li>
+			<li>Milk</li>
+		</ol>
+		<p class="list">Cup</p>
+				<ul class="list">
+					<li> Glass 
+						<ol>
+							<li>Plain</li>
+							<li>Painted</li>
+						</ol>
+					</li>
+					<li> Porcelain 
+						<ol type="a">
+							<li>Plain</li>
+							<li>Ornamental</li>
+						</ol>
+					</li>
+				</ul>
+			</li>
+		<ul class="list" type="square">
+			<li>Pen</li>
+			<li>Paper</li>
+			<li>Clip</li>
+		</ul>
+		<ul class="list" type="circle">
+			<li>Pen</li>
+			<li>Paper</li>
+			<li>Clip</li>
+		</ul>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Student Number</th>
+					<th>Student Name</th>
+					<th>Subjects</th>
+					<th>Remarks</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>John</td>
+					<td>
+						<table>
+							<tr>
+								<td>English</td>
+								<td>Chemistry</td>
+								<td>Physics</td>
+								<td>Biology</td>
+							</tr>
+						</table>
+					</td>
+					<td>John is a good student</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Mark</td>
+					<td>
+						<table>
+							<tr>
+								<td>English</td>
+								<td>Sociology</td>
+								<td>Physics</td>
+								<td>Math</td>
+							</tr>
+						</table>
+					</td>
+					<td>Mark needs to practice</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<p>For more information, see the <a href="About.html">about webpage</a></p>
+		<p>To access the sub-directory, click <a href="sub-directory/sub.html">here</a></p>
+		<p>To access the sub-sub-directory, click <a href="sub-directory/sub-sub-directory/sub-sub.html">here</a></p>
+		<p>To access the GitHub repository for this project, click <a href="https://github.com/dsdobbs/fullstack-project">here</a></p>
+		
+		<iframe src="Iframe.html"></iframe>
+		
+		<form>
+			<input type="text" placeholder="Enter username" value="John Doe">
+			<input type="password" placeholder="Enter password">
+			<input type="email" placeholder ="Enter e-mail" value="jdoe@madeupmail.com">
+			<input type="radio" name="gender" value="male">: Male <input type="radio" name="gender" value="female">: Female
+			<input type="checkbox" value="likehtml">: I like writing HTML
+			<select>
+				<option selected>Choose a Country</option>
+				<option value="united_states">United States</option>
+				<option value="canada">Canada</option>
+				<option value="mexico">Mexico</option>
+			</select>
+			<input type="submit" value="Submit Information">
+			<button>Sign Up</button>
+			<br>
+			<input list="countries">
+			<datalist id="countries">
+				<option selected>Choose a Country</option>
+				<option value="united_states">United States</option>
+				<option value="canada">Canada</option>
+				<option value="mexico">Mexico</option>
+			</datalist>
+			<input type="number">
+			<input type="date">
+		</form>
+		<img src="../img/Computer.jpg" width="300px" height="250px" title="This is a picture of a computer" alt="This is a picture of a computer (alt attribute)">
+		<script>
+			alert("Welcome to my webpage");
+			data = "This is variable data";
+			console.log("Logged data");
+			console.log(data);
+		</script>
+	</body>
+</html>
