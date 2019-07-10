@@ -1,8 +1,9 @@
 <html>
 	<head>
 		<title>Bootstrap Project</title>
-		<link href="file:///C:/Users/ddobb/fullstack-project/bootstrap/bsstyle.css" rel="stylesheet">
-		<meta name="description" content="This is the home page of fullstack web development project">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<meta name="description" content="This is the home page of a fullstack web development project">
 		<meta name="keyword" content="homepage, full stack, web development">
 		<meta name="author" content="Daniel Dobbs">
 		<style>
@@ -16,12 +17,16 @@
 		</style>
 	</head>
 	<body>
-		<h1 class="first-class">The Heading</h1>
-		<p style="color: white; background-color: black; line-height: 25px; text-decoration: underline; text-align: center; text-transform: uppercase; letter-spacing: 2px;">This Is the first paragraph</p>
-		<p id="second-para">This Is the second paragraph</p>
-		<p id="third-para">This is the third paragraph</p>
-		<p class="fourth-para">This is the fourth paragraph</p>
+		<div class="jumbotron">
+			<h1 class="display-1">This is the Heading</h1>
+			<p class="display-2">These words</p>
+			<p class="display-3">Are exhibiting</p>
+			<p class="display-4">Display levels</p>
+			<p class="display-5">One through five</p>
+		</div>
 		<!-- This is a comment -->
+		<h1>The following text is <small>using the small tag</small></h1>
+
 		<ol class="list" type="I" start="1">
 			<li>Tea</li>
 			<li>Sugar</li>
@@ -128,7 +133,11 @@
 			<input type="number">
 			<input type="date">
 		</form>
-		<img src="../img/Computer.jpg" width="300px" height="250px" title="This is a picture of a computer" alt="This is a picture of a computer (alt attribute)">
+		<div class="row">
+			<div class="col-3">
+				<img src="../img/Computer.jpg" class="img-fluid img-thumbnail" title="This is a picture of a computer" alt="This is a picture of a computer (alt attribute)">
+			</div>
+		</div>
 		<script>
 			alert("Welcome to my webpage");
 			data = "This is variable data";
