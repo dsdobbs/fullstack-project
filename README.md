@@ -1,2 +1,2 @@
-# fullstack-project
-This is a practice project for fullstack web development.
+# stackskills-html
+This is a practice project for HTML and CSS.
