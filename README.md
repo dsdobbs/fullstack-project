@@ -1,2 +1,2 @@
-# stackskills-html
-This is a practice project for HTML and CSS.
+# html-demo
+This is a simple page I put together to demo the basic features of HTML and CSS.
